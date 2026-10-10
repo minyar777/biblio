@@ -1,0 +1,15 @@
+{
+  "name": "library-db",
+  "version": "1.0.0",
+  "description": "Library database: SQL structure, seed data and Node.js queries",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node index.js setup",
+    "reset": "node index.js reset",
+    "demo": "node index.js demo"
+  },
+  "dependencies": {
+    "pg": "^8.13.0"
+  }
+}
